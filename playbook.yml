@@ -1,6 +1,6 @@
 ---
 - name: playbook
-  hosts: all
+  hosts: ec2-44-212-28-79.compute-1.amazonaws.com
   become: yes
   roles:
     #- patch
@@ -8,4 +8,9 @@
     #- nginx
     #- packages
     #- docker-compose
-    - docker
+    #- docker
+    - sonarqube
+    #- mysql
+    #- postgres
+    #- mongodb
+    

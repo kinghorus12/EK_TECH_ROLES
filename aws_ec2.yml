@@ -4,10 +4,6 @@ regions:
 keyed_groups:
   - prefix: ''
     key: tags.Name
-  - prefix: ''
-    key: tags.ops
-  - prefix: ''
-    key: tags.dev
 filters:
   instance-state-name: running
 compose:
